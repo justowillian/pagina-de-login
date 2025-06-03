@@ -10,7 +10,7 @@ function fazerLogin() {
         mensagem.style.color = "green";
         mensagem.textContent = "Login realizado com sucesso!";
         setTimeout(() => {
-            window.location.href = "index.html"; 
+            window.location.href = "login.html"; 
         }, 1000);
     } else {
         mensagem.style.color = "red";
